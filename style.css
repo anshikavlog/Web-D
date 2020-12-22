@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.hero{
+  height: 100%;
+  width: 100%;
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: absolute;
+}
+.form-box{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+}
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}

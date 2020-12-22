@@ -1,0 +1,106 @@
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height: 50px;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+
+}
+
+li>a{
+	color:white;
+}
+
+
+li{
+	float: right;
+	border-right: 1px solid #EFECEC;
+}
+li >button{
+	float: right;
+	border:none;
+	background-color: transparent;
+	height: 50px;
+	color: white;
+}
+li >button:hover{
+    color: blue;
+	background-color: #EFECEC;
+
+}
+.active ul li{
+	background: white;
+	width:px;
+	border: 1px solid #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font:left;
+	color: white;
+	font-size: 14px;
+	position: relative;
+	font-family: big john;
+}
+.active ul li:hover > ul{
+	color: black;
+}
+.dropdown-item,.dropdown-menu{
+	background-color:#E8DAEF;
+	color:black;
+}
+
+a,.dropdown-item{
+	display: block;
+	padding: 0 28px;
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	background-color:#EFECEC;
+	color: blue;
+}
+
+
+.active a{
+	background-color: #EFECEC;
+	color: blue;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 250px;
+	font-style: hougbon;
+	text-align: center;
+	background: url(triranga.jpg);
+	color: white;
+	background-size: cover;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	animation: water 30s infinite;
+	background-size: 270px 270px;
+}
+@keyframes water{
+	from{
+		background-position: left;
+	}
+	to{
+		background-position: left 10000px top 0;
+	}
+}
+h2{
+	font-size: 130px;
+	text-align:center;
+	color:#FFA07A;
+	font-family:'Sofia';
+}
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  width: 500px 500px;
+  bottom: 0;
+  color: white;
+}
